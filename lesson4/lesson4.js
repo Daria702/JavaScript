@@ -91,20 +91,6 @@ arrSpisok([1, 3, 'fgkg']);
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
 // та виводить їх в документ. Для кожного об'єкту окремий блок.
 
-// function users(...items) {
-//     const  objects = items[i];
-//     for (const object of items) {
-//         document.write(`<div class="divs">`);
-//         // document.write(`${object} - ${object.id}`)
-//         // for (let i=0; i<object.length; i++) {
-//         //     document.write(`${object[i]}`)
-//         // }
-//         // document.write(object);
-//         document.write(`</div>`);
-//     }
-// }
-// users({id:123}, {name:'Dasha'}, {age:30});
-
 
 function users(...items) {
     for (const elem of items) {
