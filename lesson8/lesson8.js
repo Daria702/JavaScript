@@ -89,10 +89,10 @@ function  Constructor (model, virobnik, year, shvidkist, obiem) {
     this.shvidkist = shvidkist;
     this.obiem = obiem;
     this.drive = function() {
-        console.log(`їдемо зі швидкістю ${shvidkist} на годину`);
+        console.log(`їдемо зі швидкістю ${this.shvidkist} на годину`);
     }
     this.info = function () {
-        console.log(`model - ${model}`);
+        console.log(`model - ${this.model}`);
     }
 }
 
